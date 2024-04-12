@@ -1,0 +1,77 @@
+    
+    body{
+        main {
+        .classgeneral{
+            background: url(../assets/textura-grano-fondo.jpg) no-repeat center;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        }
+            div{
+                height: 100vh;
+                z-index: 1;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1;
+                color: white;
+                flex-direction: column;
+
+                h1{
+                    color: white;
+                    text-align: center;
+                    font-family: "League Spartan", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 200;
+                    font-style: normal;
+                    font-size: 3em;
+                }
+                
+                h2{
+                    color: white;
+                    text-align: center;
+                    font-family: "League Spartan", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 50;
+                    font-style: normal;
+                    font-size: 1.3em;
+                }
+            }
+            div{
+                .Presentacion{
+                    display: grid;
+                    overflow-wrap: break-word;
+                    justify-content: space-between;
+                    grid-template-columns: 1fr 3fr;
+                    background-color: rgba(67, 67, 67, 0.703);
+                    width: 100%;
+                    height: auto;
+                    padding: 0px 3.125rem;
+                    align-items: center;
+                    justify-items: center;
+                    gap: 3.125rem;
+                
+                    img{
+                        max-width: 300px;
+                        max-height: 300px;
+                        margin: 15px;
+                        border-radius: 5px;
+                    }
+                    p{
+                        color: white;
+                        font-family: "League Spartan", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 200;
+                        font-style: normal;
+                        font-size: 1.6em;
+                        line-height: 1.3;
+                        text-align: justify;
+                        padding-top: 20px;
+                        padding-bottom: 20px; 
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }

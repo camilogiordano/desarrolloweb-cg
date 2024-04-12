@@ -1,0 +1,40 @@
+
+header{
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.096);
+    }
+
+    .navbar-toggler {
+        max-width: 50px;
+        border: none;
+        font-size: 1.25rem;
+    }
+
+    .navbar-toggler-icon {
+        background-color: rgba(255, 255, 255, 0.441);
+        border-radius: 5px;
+    }
+
+    .navbar-toggler:focus, .btn-close:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .nav-link {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(212, 212, 212);
+    }
+
+    .navbar-brand img{
+        max-width: 40px;
+        max-height: auto;
+    }
+    
+    .offcanvas-header {
+        min-width: 992px
+    }
+}
